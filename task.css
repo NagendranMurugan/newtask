@@ -1,0 +1,44 @@
+.item,.box{
+    padding: 30px;
+    margin: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #e74c3c;
+    color: #FFFf;
+ }
+ .contain{
+     display: flex;
+     padding: 10px;
+     border: 2px solid #2c3e50;
+     margin-top: 50px;
+     height: 300px;
+     width:350px;
+     text-align: center;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     justify-content: end;
+     flex-direction: column-reverse;
+ } 
+ .item:nth-child(1){
+     align-self: stretch;
+     height:150px;
+     width:80px
+ }
+ .c2{
+     display: flex;
+     padding: 10px;
+     border: 2px solid #2c3e50;
+     margin-top: 50px;
+     height: 300px;
+     width:350px;
+     text-align: center;
+     flex-wrap: wrap;
+     align-items: flex-start;
+     justify-content: end;
+     flex-direction: column-reverse;
+ }
+ .box:nth-child(5){
+     align-self: stretch;
+     height:150px;
+     width:80px
+ }
